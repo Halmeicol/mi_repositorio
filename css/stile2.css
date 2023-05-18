@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "greek";
+    src: url(../fonts/GFSNeohellenic-Regular.ttf);
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+  header {
+    position:initial;
+    text-align: center;
+  }
+  /* Recuadro logo y busqueda */
+  .section01 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(231, 231, 231);
+  }
+  .busqueda_art
+  input {
+    display: block;
+    width: 300px;
+    height: 30px;
+    text-align: left;
+    border: 1px solid #000000;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    }
+  

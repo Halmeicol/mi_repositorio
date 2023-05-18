@@ -1,0 +1,196 @@
+@font-face {
+  font-family: "greek";
+  src: url(../fonts/GFSNeohellenic-Regular.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+header {
+  position:initial;
+  text-align: center;
+}
+/* Texto hypervinculos */
+a {
+  text-indent: 10px;
+  color: #8e98a3;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+ul{
+  list-style: none ;
+}
+
+/* Recuadro logo y busqueda */
+.section01 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  background-color: rgb(231, 231, 231);
+  padding: 20px;
+  }
+    .logo_trs {
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+    
+    }
+    .busqueda_art
+    input {
+    width: 300px;
+    height: 40px;
+    text-align: left;
+    border: 1px solid #000000;
+    font-family:"" ;
+    font-size: x-large;
+    }
+    .logo_carrito
+    {
+    width: 80px;
+    height: 80px;
+    }
+    
+/* Etiquetas navegacion */
+.navega_sitio  {
+  display: flex;
+  justify-content: center;
+  }
+      .navega_sitio ul li  {
+        margin: 10px;
+        display: inline;
+        font-size: x-large;
+      }
+
+/* Cuerpo principal de contenido */
+  .main_body {
+  display: flex;
+  justify-content: left;
+  
+  }
+  
+  /* Categorias */
+  .categorias p{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: x-large;
+  }
+    .categorias ul {
+      padding: 10px;
+      font-size: x-large;
+    }
+      .categorias ul li {
+      display: block
+      }
+      .categorias ul li a{
+        color: rgb(4, 100, 20);
+      }
+/* Categorias Fin */
+
+/* imagenes centro */
+.imagenes_centro {
+  display: flex ;
+  flex-wrap: wrap;
+  padding: 10px;
+  
+  }
+  .img_cent {
+    border: 1px solid #000000;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    object-fit:contain
+  }
+
+  /* Recuadro ingreso y registro */
+    .ingreso_usuario01 fieldset {
+      display: inline-block;
+      width: 300px;
+      height: 240px;
+      padding: 20px;
+      border: 1px solid #000000;
+      border-radius: 1px;
+    }
+    .registro_usuario01 fieldset {
+      display: inline-block;
+      width: 300px;
+      height: 240px;
+      padding: 20px;
+      border: 1px solid #000000;
+      border-radius: 1px;
+    }
+    label {
+      width: 300px;
+      height: 30px;
+      text-align: left;
+      margin-top: 10px;
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-bottom: 0px;
+      font-size: large;
+    }
+    input {
+      width: 300px;
+      height: 30px;
+      text-align: left;
+      border: 1px solid #000000;
+      margin-top: 0px;
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      font-size: large;
+      
+    }
+    button {
+      width: 100px;
+      height: 30px;
+      text-align: center;
+      border: 1px solid #000000;
+      margin-top: 0px;
+      margin-right: 20px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      font-size: large;
+    }
+
+/* Recuadro contacto */
+.contacto_form
+fieldset {
+  width: 300px;
+  height: 570px;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 1px;
+  }
+  #comentario01 {
+  margin-left: 20px;
+  }
+
+
+/* Footer */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 30px;
+  width: 100%;
+  height: 150px;
+  background-color: rgb(231, 231, 231);
+  }
+  .logo_foot {
+    
+    margin-left: 30px;
+    width: 80px;
+    height: 80px;
+    }
+    footer nav ul li {
+      display: block
+    }
+    
+footer p {
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 0px;
+  margin-left: 0px;
+  }
